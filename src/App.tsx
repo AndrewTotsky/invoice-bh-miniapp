@@ -1,7 +1,6 @@
-import { useEffect } from "react";
 import PaymentForm from "./InvoiceForm";
 
-function App() {
+function App(): React.JSX.Element {
     // useEffect(() => {
     //     const tg = window.Telegram.WebApp;
     //     tg.ready(); // говорит Telegram, что Mini App готово
